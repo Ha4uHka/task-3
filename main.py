@@ -1,11 +1,7 @@
 ## main стартовый модуль проекта
+from functions import funk1, funk2
 
-# todo import <зависимость из задания>
+root_dir = 'C:\\Users\\user\\Desktop\\project3\\A'
 
-def main():
-    # TODO - сделай вызов функций из functions
-    pass
-
-# Иннициализационный скрипт
-if __name__ == '__main__':
-    main()
+image_paths = funk1(root_dir)
+funk2(root_dir, image_paths)
